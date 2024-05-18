@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\hugh\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add electron-squirrel-startup
+
+PATH: 
+  C:\Users\hugh\web开发\source_file\my-electron-app\node_modules\.bin;C:\Users\hugh\web开发\source_file\my-electron-app\node_modules\.bin;C:\Users\hugh\web开发\source_file\node_modules\.bin;C:\Users\hugh\web开发\node_modules\.bin;C:\Users\hugh\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Users\hugh\AppData\Roaming\nvm\v20.13.1\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\阿迪\AppData\Roaming\nvm;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\hugh\AppData\Roaming\npm\node_modules\yarn\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\dotnet\;C:\Users\hugh\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\hugh\openjdk\jdk17\bin;C:\Users\hugh\Gradle\gradle-7.6.1\bin;C:\Users\hugh\AppData\Local\Huawei\ohpm\bin;C:\Users\hugh\AppData\Local\pnpm;C:\Users\hugh\AppData\Local\Microsoft\WindowsApps;C:\Users\hugh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hugh\AppData\Local\Yarn\bin;C:\Program Files\Huawei\DevEco Studio\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\hugh\AppData\Local\Yarn\Cache\v6\npm-universalify-0.1.2-b646f69be3942dabcecc9d6639c80dc105efaa66-integrity\node_modules\universalify\package.json' -> 'C:\Users\hugh\web开发\source_file\my-electron-app\node_modules\electron\node_modules\universalify\package.json'
+
+npm manifest: 
+  {
+    "name": "my-electron-app",
+    "version": "1.0.0",
+    "description": "Hello World",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron-forge start",
+      "package": "electron-forge package",
+      "make": "electron-forge make"
+    },
+    "author": "Hugh",
+    "license": "MIT",
+    "devDependencies": {
+      "@electron-forge/cli": "^7.4.0",
+      "electron": "^30.0.6"
+    },
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
